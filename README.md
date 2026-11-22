@@ -62,11 +62,11 @@ Run benchmark: `python benchmark.py`
 
 **DP (0/1):** builds a table of best profit for every item count and capacity. It is exact for whole items, but slower on large capacities.
 
-## 📊 Comparison
+## Comparison
 
 Fractional greedy usually reports equal or higher profit than 0/1 DP because it may split items, which is not possible in a real warehouse. DP gives the true best selection of whole products, while greedy is much faster as the input grows. See `benchmark_results.png` for the runtime comparison.
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 Python, Streamlit, Plotly, Pandas
 
