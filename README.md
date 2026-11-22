@@ -33,7 +33,7 @@ inventory-optimizer/
 └── README.md
 ```
 
-## 🚀 Getting Started
+## Getting Started
 
 ```
 git clone https://github.com/Shwetajha-206/inventory-optimizer.git
